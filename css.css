@@ -1,20 +1,20 @@
 html *{
   padding: 0;
   margin:0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 body{
   height: 100vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .bk-img{
-  background-image:url('background.jpg');
+  background-image:url('background2.jpg');
   height: 100%;
   background-repeat: no-repeat;
   background-attachment: absolute;
   background-size: cover;
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
+  filter: blur(1.2px);
+  -webkit-filter: blur(1.2px);
 }
 .topnav {
     overflow: hidden;
@@ -24,8 +24,13 @@ body{
 
   .topnav img {
     float:left;
-    width: 3%;
-    height: 3%;
+    width: 4%;
+    height: 4%;
+  }
+  .topnav p {
+    font-size:20px;
+    color:rgb(146, 177, 97);
+    padding-top:10px;
   }
   
   /* Style the links inside the navigation bar */
@@ -75,22 +80,17 @@ body{
     }
     
   }
-  /* .content {
-    text-align:center;
-    padding-top:10%;
-  } */
-/* section{
-  height: 90vh;
-} */
   .container {
     text-align:center;
-    background-color: rgba(0,0,0);
+    /* abhi ke liye ki h bsss */
+    /* background-color: rgba(0,0,0);
     background-color: rgba(0,0,0, 0.4); 
-    color:rgb(221, 213, 213);
+    color:rgb(221, 213, 213);  yha tk taaki changes kr sku */
+
     /* border: 3px solid #ccc9c9; */
     position: absolute;
     left:27%;
-    top:50%;
+    top:10%;
     width:50%;
     height:25%;
     transform: translate(-10%, -10%);
@@ -98,16 +98,27 @@ body{
     /* box-sizing:border-box; */
   }
   .container button {
+    background-color:#e9e9e9;
     margin:20px;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 6px 6px rgba(122, 122, 122, 0.6);
     cursor: pointer;
+    font-size:20px;
+  }
+  .content {
+   text-align:left;
+   margin:100px;
+   font-size:40px;
+   color:rgb(39, 38, 38);
   }
 .icons{
   margin-top:20px;
   }
 .icons a{
   margin:10px;
+  height:40px;
+  color:black;
+
 }
 .icons  a:hover{
-  background-color: rgb(190, 146, 79);
+  background-color:transparent;
 }
