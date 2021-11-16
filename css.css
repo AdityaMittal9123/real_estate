@@ -1,7 +1,7 @@
 html *{
   padding: 0;
   margin:0;
-  /* box-sizing: border-box; */
+ 
 }
 body{
   height: 100vh;
@@ -82,12 +82,6 @@ body{
   }
   .container {
     text-align:center;
-    /* abhi ke liye ki h bsss */
-    /* background-color: rgba(0,0,0);
-    background-color: rgba(0,0,0, 0.4); 
-    color:rgb(221, 213, 213);  yha tk taaki changes kr sku */
-
-    /* border: 3px solid #ccc9c9; */
     position: absolute;
     left:27%;
     top:10%;
@@ -95,7 +89,6 @@ body{
     height:25%;
     transform: translate(-10%, -10%);
     z-index: 1;
-    /* box-sizing:border-box; */
   }
   .container button {
     background-color:#e9e9e9;
