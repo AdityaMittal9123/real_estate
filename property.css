@@ -1,0 +1,28 @@
+.dropdown{
+    padding-top:40%;
+    left:40%;
+}
+section{
+    /* background-color:brown; */
+    /* height:100vh; */
+    margin:10px;
+  }
+  .property-section{
+      margin:10px;
+      height:50vh;
+  }
+  h1{
+    color:rgb(223, 83, 83);
+  }
+  .card{
+    /* margin:0px; */
+    height:100%;
+  }
+  .card img{
+    height:50%;
+    width:100%;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px  rgba(138, 5, 5, 0.4);
+    /* background-color: red; */
+  }
