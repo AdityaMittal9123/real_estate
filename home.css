@@ -1,0 +1,96 @@
+html * {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body{
+  /* font-family: helvetica; */
+}
+.t1 a{
+  color: #000;
+  padding-left: .5rem;
+  float: left;
+  text-decoration: none;
+}
+.t2 a{
+  float: right;
+  padding-left: .5rem;
+  color: black;
+}
+section{
+    /* background-color:brown; */
+    height:100vh;
+    margin:10px;
+  }
+  .intoduction{
+    background-image:url('images/intro.jpg');
+    background-color: rgba(0,0,0,0.4);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-size:cover;
+    /* filter: blur(1px);
+    -webkit-filter: blur(1px); */
+  }
+  .intro-content{
+    text-align:left;
+    position: absolute;
+    font-family:helvetica;
+    left:20%;
+    top:40%;
+    width:50%;
+    height:100%;
+    transform: translate(-10%, -10%);
+    z-index: 2;
+  }
+  h1{
+    color:rgb(223, 83, 83);
+  }
+  .image img{
+    height:500px;
+    width:100%;
+  }
+  .card{
+    /* margin:0px; */
+    height:100%;
+  }
+  .card img{
+    height:150%;
+    width:100%;
+  }
+  .card-content{
+    text-align:left;
+    padding-top: 70px;
+  }
+  .card-content p{
+    margin:20px;
+  }
+  /* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px  rgba(138, 5, 5, 0.4);
+  /* background-color: red; */
+}
+.card1{
+  height:100vh;
+}
+.card1 img{
+  height: 100%;
+  width:100%
+}
+.card1:hover {
+  box-shadow: 0 8px 16px  rgba(138, 5, 5, 0.4);
+  /* background-color: red; */
+}
+/* [class*="col-"] {
+  width:100%;
+} */
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  /* .col-4 {width: 33.33%;}
+  .col-6 {width: 50%;} */
+  [class*="col-"] {
+    width:100%;
+  }
+}
